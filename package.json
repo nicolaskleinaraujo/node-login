@@ -4,7 +4,7 @@
   "description": "Tela de login funcional usando Node.js e MongoDB Atlas",
   "main": "server.js",
   "scripts": {
-    "start": "node server"
+    "start": "node src/server"
   },
   "keywords": [],
   "author": "Nicolas Klein",
