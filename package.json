@@ -1,0 +1,18 @@
+{
+  "name": "node-login",
+  "version": "1.0.0",
+  "description": "Tela de login funcional usando Node.js e MongoDB Atlas",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "keywords": [],
+  "author": "Nicolas Klein",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
