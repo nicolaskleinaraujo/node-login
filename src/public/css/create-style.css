@@ -60,7 +60,7 @@
     }
 }
 
-#login-box {
+#create-box {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -99,7 +99,7 @@ form {
     text-align: center;
 }
 
-#inpemail, #inppass {
+#creemail, #crepass {
     text-align: left;
     text-indent: 8px;
     margin: 10px;
@@ -108,7 +108,7 @@ form {
     height: 25px;
 }
 
-#login-btn {
+#create-btn {
     padding: 3px;
     font-size: 1em;
     border-radius: 20px;
@@ -119,23 +119,8 @@ form {
     transition: .2s;
 }
 
-#login-btn:hover {
+#create-btn:hover {
     color: lightgray;
     background-color: var(--hover-contrast-color);
     cursor: pointer;
-}
-
-.create-acc-btn {
-    margin-bottom: 8px;
-    text-align: center;
-    text-decoration: none;
-    border: none;
-    color: var(--link-color);
-}
-
-.create-acc-btn:hover {
-    background-color: lightgray;
-    padding: 3px;
-    border-radius: 10px;
-    margin-bottom: 5px;
 }
