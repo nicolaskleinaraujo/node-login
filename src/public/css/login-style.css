@@ -31,8 +31,7 @@
 }
 
 #img-1 {
-    top: 2%;
-    left: 7%;
+    top: 5%;
     animation: floating 5s ease-in-out infinite;
 }
 
@@ -60,7 +59,7 @@
     }
 }
 
-#login-box {
+#content {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -81,6 +80,7 @@ p {
     text-align: justify;
     font-family: var(--fontp);
     font-size: 0.8em;
+    margin-bottom: 10px;
 }
 
 p > a {
@@ -93,48 +93,4 @@ p > a:hover {
     background-color: lightgray;
     padding: 1px;
     border-radius: 10px;
-}
-
-form {
-    text-align: center;
-}
-
-#inpemail, #inppass {
-    margin: 10px;
-    font-size: 1em;
-    text-align: center;
-    border-radius: 20px;
-    height: 25px;
-}
-
-#login-btn {
-    padding: 3px;
-    font-size: 1em;
-    border-radius: 20px;
-    margin-bottom: 10px;
-    background-color: var(--contrast-color);
-    color: white;
-    width: 195px;
-    transition: .2s;
-}
-
-#login-btn:hover {
-    color: lightgray;
-    background-color: var(--hover-contrast-color);
-    cursor: pointer;
-}
-
-.create-acc-btn {
-    margin-bottom: 8px;
-    text-align: center;
-    text-decoration: none;
-    border: none;
-    color: var(--link-color);
-}
-
-.create-acc-btn:hover {
-    background-color: lightgray;
-    padding: 3px;
-    border-radius: 10px;
-    margin-bottom: 5px;
 }
