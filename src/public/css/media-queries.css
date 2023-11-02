@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 630px) and (max-width: 1023px) {
+    #img-1 {
+        left: 17%;
+    }
+
+    #img-2 {
+        left: 52%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 2354px) {
+    #img-1 {
+        top: 14%;
+        left: 19%;
+    }
+
+    #img-2 {
+        top: 62%;
+        left: 61%;
+    }
+}
+
+@media screen and (min-width: 1355px) and (max-width: 2000px) {
+    #img-2 {
+        left: 65%;
+    }
+}
