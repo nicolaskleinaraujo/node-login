@@ -78,7 +78,7 @@ h1 {
 }
 
 p {
-    text-align: justify;
+    text-align: center;
     font-family: var(--fontp);
     font-size: 0.8em;
 }
