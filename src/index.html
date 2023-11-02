@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index-style.css">
     <title>Tela de Login</title>
 </head>
 <body>
-    <h1>Bem Vindo(a)</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora placeat saepe porro sequi voluptate! Nesciunt repudiandae doloremque exercitationem! Aliquid esse repudiandae vitae earum nostrum itaque eum, blanditiis adipisci eligendi commodi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est reprehenderit veniam et, officia iusto dolores labore consectetur excepturi iure sed harum, ad neque nobis officiis cupiditate minus aliquid repudiandae corporis.</p>
+    <div id="background-image">
+        <img id="img-1" src="images/background-image-1.png" alt="Foto Astronauta em Saturno Cartoon">
+        <img id="img-2" src="images/background-image-2.png" alt="Foto Astronauta no Espaço Cartoon">
+    </div>
 
-    <form action="/login-verify" method="post">
-        <input type="email" name="inpemail" id="inpemail">
-        <input type="password" name="inppass" id="inppass">
-        <input type="submit" value="Login">
-    </form>
-    <a href="/create-acc"><button type="button">Crie uma conta</button></a>
+    <div id="login-box">
+        <h1>Bem Vindo(a)</h1>
+        <p>Faça o seu login para testar o meu sistema. Esse sistema foi desenvolvido para estudo. O sistema permite que você crie sua conta utilizando email e senha de sua escolha. Tanto a validação quanto o salvamento dos dados na base de dados do MongoDB Atlas foi feito utilizando o Node.Js. Clique para acessar o <a href="#">Meu Repositorio</a>.</p>
+        <form action="/login-verify" method="post">
+            <input type="email" name="inpemail" id="inpemail" placeholder="Seu email">
+            <input type="password" name="inppass" id="inppass" min="6" max="10" placeholder="Sua senha">
+            <input id="login-btn" type="submit" value="Login"> <br>
+            <button class="create-acc-btn" type="button"><a class="create-acc-btn" href="/create-acc">Crie uma conta</a></button>
+        </form>
+        
+    </div>
 </body>
 </html>

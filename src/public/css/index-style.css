@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Spectral:wght@600&display=swap');
+
+:root {
+    --fonth1: 'DM Serif Display', serif;
+    --fontp: 'Spectral', serif;
+
+    --contrast-color: #5833A6;
+    --hover-contrast-color: rgba(77, 37, 161, 0.937);
+    --background-color: #0D0D0D;
+    --link-color: #551a8b;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#background-image {
+    display: block;
+    background-color: var(--background-color);
+    height: 100vh;
+}
+
+#background-image img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    
+}
+
+#img-1 {
+    top: 5%;
+    animation: floating 5s ease-in-out infinite;
+}
+
+@keyframes floating {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+#img-2 {
+    top: 70%;
+    left: 46%;
+    animation: floating-2 4s ease-in-out infinite;
+}
+
+@keyframes floating-2 {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+#login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.918);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: var(--fonth1);
+    padding: 10px 0px 10px 0px;
+}
+
+p {
+    text-align: justify;
+    font-family: var(--fontp);
+    font-size: 0.8em;
+}
+
+p > a {
+    text-decoration: none;
+    color: var(--link-color);
+    transition: .2s;
+}
+
+p > a:hover {
+    background-color: lightgray;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+form {
+    text-align: center;
+}
+
+#inpemail, #inppass {
+    margin: 10px;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 20px;
+    height: 25px;
+}
+
+#login-btn {
+    padding: 3px;
+    font-size: 1em;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background-color: var(--contrast-color);
+    color: white;
+    width: 195px;
+    transition: .2s;
+}
+
+#login-btn:hover {
+    color: lightgray;
+    background-color: var(--hover-contrast-color);
+    cursor: pointer;
+}
+
+.create-acc-btn {
+    margin-bottom: 8px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    color: var(--link-color);
+}
+
+.create-acc-btn:hover {
+    background-color: lightgray;
+    padding: 3px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
