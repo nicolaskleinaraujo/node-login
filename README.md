@@ -1,4 +1,5 @@
 # Functional login screen using Node.Js
+ ![MIT License](https://img.shields.io/badge/license-MIT-blue)<br>
  <img src="./assets/images/Home-Page.jpg" alt="Print Home Page" width="700">.
  ### Demo App: not avaiable yet
 # About
