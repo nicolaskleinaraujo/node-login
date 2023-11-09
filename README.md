@@ -9,24 +9,24 @@
  
  <img src="./assets/images/Create-Acc-Page.jpg" alt="Print Home Page" width="700">.
 # Used Tecnologies
- ## Back-end
+ ### Back-end
  - JavaScript
  - Node.js
  - Express
  - MongoDB Atlas
 
- ## Front-end
+ ### Front-end
  - HTML
  - CSS
 
- ## Implantation
+ ### Implantation
  - Not Started
 
 # How to execute the project
- ## Prerequisites
+ ### Prerequisites
  - Node.js installed
  - Git installed
- ## Step by step
+ ### Step by step
  ```bash
  # clone repository
  git clone https://github.com/nicolaskleinaraujo/node-login
