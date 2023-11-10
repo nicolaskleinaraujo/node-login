@@ -1,6 +1,6 @@
 # Functional login screen using Node.Js
  ![MIT License](https://img.shields.io/badge/license-MIT-blue)<br>
- <img src="./assets/images/home-page.jpg" alt="Print Home Page" width="700">.
+ <img src="./assets/home-page.jpg" alt="Print Home Page" width="700">.
  ### Demo App: not avaiable yet
 # About
  This is a simple functional login screen that can be used in many websites.
@@ -8,7 +8,7 @@
  You can create your own account using the "Create User" page.
  A successful login redirects you to a success login page, and a unsuccessful login redirects you to a unsuccess login page.
  
- <img src="./assets/images/create-acc-page.jpg" alt="Print Home Page" width="700">.
+ <img src="./assets/create-acc-page.jpg" alt="Print Home Page" width="700">.
 # Used Tecnologies
  ### Back-end
  - JavaScript
